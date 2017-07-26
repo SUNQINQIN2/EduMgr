@@ -1,0 +1,58 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+.welcome{
+background-color: #333658;
+  display: block;
+  width: 328px;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+  text-align: center;
+  margin:50px auto;
+
+}
+.containerS>.containerS_div>ul{
+	width:328px;
+	height: auto;
+}
+
+.containerS>.containerS_div>ul>li{
+	list-style: none;
+	width: 328px;
+	height:150px;
+	text-align: center;
+	line-height: 150px;
+	border: 2px solid white;
+   background-color:#D8D7D7;
+}
+.containerS>.containerS_div>ul>li>a{
+	text-decoration: none;
+	color: #5B5757;
+		font-size: 20px;
+		
+}
+.containerS>.containerS_div>ul>li:hover{
+	border: 2px solid #5674B6;
+	cursor: pointer;
+	color: #E46431;
+	background-color: white;
+}
+.containerS>.containerS_div>ul>li:hover a{
+	color: #E46431;
+}
+.containerS>.containerS_div{
+	width: 328px;
+	height: auto;
+	background-color: white;
+	
+/* 	box-shadow: h-shadow v-shadow blur spread color inset; */
+	/* box-shadow: 20px 20px #ADADAD; */
+	/* 对象选择器 {box-shadow:[投影方式] X轴偏移量 Y轴偏移量阴影模糊半径 阴影扩展半径 阴影颜色} */
+/* R：红色值。正整数 | 百分数G：绿色值。正整数 | 百分数B：蓝色值。正整数| 百分数A：透明度。取值0~1之间 */
+	box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.16);
+	 margin:-30px auto;
+	
+
+}
